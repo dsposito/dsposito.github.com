@@ -1,12 +1,10 @@
-<div class="page-header">
+<div class="post-header">
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  <p class="muted"><strong>{{ page.date | date: "%B %d, %Y" }}</strong></p>
 </div>
 
 <div class="row-fluid post-full">
   <div class="span12">
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</strong>
-    </div>
     <div class="content">
       {{ content }}
     </div>
@@ -27,6 +25,8 @@
     </ul>
   {% endunless %}  
 
+    {% comment %}
+    Commenting out pagination and comments...
     <hr>
     <div class="pagination">
       <ul>
@@ -45,5 +45,6 @@
     </div>
     <hr>
     {% include JB/comments %}
+    {% endcomment %}
   </div>
 </div>

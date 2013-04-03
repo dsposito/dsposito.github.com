@@ -1,4 +1,20 @@
 /* Custom container */
+body {
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.post-header {
+  margin-top: 20px;
+}
+
+.post-header h1 {
+  margin-bottom: 0;
+}
+
 .container-narrow {
   margin: 0 auto;
   max-width: 700px; }
