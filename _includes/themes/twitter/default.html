@@ -33,14 +33,13 @@
   </head>
 
   <body>
-    <div class="navbar">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-narrow">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
+            <li{% if page.url == '/index.html' %} class="active"{% endif %}><a href="/"{% if page.url == '/index.html' %} class="active"{% endif %}>Home</a></li>
+            <li{% if page.url == '/blog.html' %} class="active"{% endif %}><a href="/blog.html"{% if page.url == '/blog.html' %} class="active"{% endif %}>Blog</a></li>
           </ul>
         </div>
       </div>
@@ -53,10 +52,7 @@
       </div>
       <hr>
       <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
       </footer>
 
     </div>
