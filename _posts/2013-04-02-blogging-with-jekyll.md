@@ -7,8 +7,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-<br />
-
 <blockquote>
 	<p>Jekyll - a simple, blog aware, static site generator.</p>
 	<small>Tom Preston-Werner</small>

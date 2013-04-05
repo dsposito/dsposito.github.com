@@ -3,16 +3,8 @@ body {
   padding-top: 40px;
 }
 
-h1 {
-  font-size: 28px;
-}
-
-.post-header {
-  margin-top: 20px;
-}
-
-.post-header h1 {
-  margin-bottom: 0;
+p.post-date {
+  margin: 15px 0 0 0;
 }
 
 .container-narrow {
@@ -79,3 +71,43 @@ h1 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+/* Twitter Bootstrap Overrides */
+.navbar .nav {
+  margin-right: 0;
+}
+.page-header {
+  padding-bottom: 0;
+}
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+/* Homepage Styling */
+.recent-posts {
+  margin-left: 50px;
+  min-height: 150px;
+}
+.recent-posts h3 {
+  margin: -5px 0 0;
+}
+.network-icon {
+  color: #000;
+  opacity: 0.75;
+  margin: 0 15px;
+}
+.network-icon:hover {
+  color: #000;
+  opacity: 1;
+  text-decoration: none;
+}
+.network-twitter {
+  font-size: 90%;
+}
