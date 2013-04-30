@@ -14,9 +14,8 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ ASSET_PATH }}/libs/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/libs/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!--[if IE 7]>
     <link href="{{ ASSET_PATH }}/fontawesome/css/font-awesome-ie7.min.css" rel="stylesheet" type="text/css">
     <![endif]-->
@@ -43,7 +42,7 @@
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
             <li{% if page.url == '/index.html' %} class="active"{% endif %}><a href="/"{% if page.url == '/index.html' %} class="active"{% endif %}>Home</a></li>
-            <li{% if page.url contains "/blog" %} class="active"{% endif %}><a href="/blog.html"{% if page.url == '/blog.html' %} class="active"{% endif %}>Blog</a></li>
+            <li{% if page.url contains '/blog' %} class="active"{% endif %}><a href="/blog.html"{% if page.url contains '/blog' %} class="active"{% endif %}>Blog</a></li>
           </ul>
         </div>
       </div>
