@@ -29,7 +29,9 @@ JB :
     provider : false
 
   analytics :
-    provider : false 
+    provider: mixpanel
+    mixpanel :
+        token : f528f73a816ec4579d54962c258ec9af
 
   sharing :
     provider : false
