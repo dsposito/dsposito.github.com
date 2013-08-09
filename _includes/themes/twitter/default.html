@@ -42,9 +42,18 @@
         <div class="container-narrow">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
-            <li{% if page.url == '/index.html' %} class="active"{% endif %}><a href="/"{% if page.url == '/index.html' %} class="active"{% endif %}>Home</a></li>
-            <li{% if page.url contains '/about' %} class="active"{% endif %}><a href="/about.html"{% if page.url contains '/about' %} class="active"{% endif %}>About</a></li>
-            <li{% if page.url contains '/blog' %} class="active"{% endif %}><a href="/blog.html"{% if page.url contains '/blog' %} class="active"{% endif %}>Blog</a></li>
+            <li{% if page.url == '/index.html' %} class="active"{% endif %}>
+              <a href="/"{% if page.url == '/index.html' %} class="active"{% endif %}>Home</a>
+            </li>
+            <li{% if page.url contains '/about' %} class="active"{% endif %}>
+              <a href="/about.html"{% if page.url contains '/about' %} class="active"{% endif %}>About</a>
+            </li>
+            <li{% if page.url contains '/projects' %} class="active"{% endif %}>
+              <a href="/projects.html"{% if page.url contains '/projects' %} class="active"{% endif %}>Projects</a>
+            </li>
+            <li{% if page.url contains '/blog' %} class="active"{% endif %}>
+              <a href="/blog.html"{% if page.url contains '/blog' %} class="active"{% endif %}>Blog</a>
+            </li>
           </ul>
         </div>
       </div>
