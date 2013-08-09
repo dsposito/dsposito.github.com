@@ -89,6 +89,14 @@ h3 {
   font-size: 18px;
   margin-bottom: 0;
 }
+.dl-horizontal dt, .dl-horizontal dd {
+  line-height: 22px;
+}
+
+/* Global Styling */
+.quote-description {
+  margin: 25px 0;
+}
 
 /* Homepage Styling */
 .recent-posts {
