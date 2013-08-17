@@ -119,3 +119,8 @@ h3 {
 .network-twitter {
   font-size: 90%;
 }
+
+/* Projects Styling */
+#projects-container dl {
+  margin-top: 0;
+}
