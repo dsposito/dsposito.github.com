@@ -29,9 +29,9 @@ JB :
     provider : false
 
   analytics :
-    provider: mixpanel
-    mixpanel :
-        token : f528f73a816ec4579d54962c258ec9af
+    provider: google
+    google :
+        tracking_id : 'UA-43776204-1'
 
   sharing :
     provider : false
