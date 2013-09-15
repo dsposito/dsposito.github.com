@@ -125,7 +125,7 @@ a:hover, a:active, a:focus {
 }
 .network-icon {
   color: #999999;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 .network-icon:hover {
   color: #000;
