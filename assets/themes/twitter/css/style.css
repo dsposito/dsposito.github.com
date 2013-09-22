@@ -112,6 +112,15 @@ blockquote p {
 .navbar-brand {
   font-weight: 200;
 }
+/* Larger modals for desktop devices. */
+@media (min-width: 992px) {
+  .modal-dialog-gallery {
+    width: 750px;
+  }
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  margin: 0 auto;
+}
 
 /* Global Styling */
 footer {

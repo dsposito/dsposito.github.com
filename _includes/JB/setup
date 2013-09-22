@@ -17,6 +17,8 @@
       {% assign ASSET_PATH = site.JB.ASSET_PATH %}
     {% else %}
       {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ page.theme.name }}{% endcapture %}
-    {% endif %}  
+    {% endif %}
+    
+    {% assign IMAGE_PATH = "/assets/images" %}
   {% endif %}
 {% endcapture %}{% assign jbcache = nil %}
