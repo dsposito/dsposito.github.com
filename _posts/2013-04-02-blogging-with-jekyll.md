@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blogging With Jekyll"
-description: ""
+description: "Jekyll - a simple, blog aware, static site generator."
 category: 
 tags: []
 ---
