@@ -27,7 +27,7 @@ Every business deals with a variety of different documents; including P&L spread
 
 Hangouts
 --------
-Email, chat, SMS and voice are all great forms of communication - though nothing beats being able to see the person you're talking to. Google Hangouts helps our Oklahoma City and New York City teams to communicate effectively during our morning scrums and other meetings. Although the video quality can be quite spotty at times, Google Hangouts is an invaluable tool for team discussion, one-on-one chats, easy screen-sharing and prospective hire interviewing.
+Email, chat, SMS and voice are all great forms of communication - though nothing beats being able to see the person you're talking to. Google Hangouts helps our Oklahoma City and New York City teams to communicate effectively during our morning scrums and other meetings. Although the video quality can be spotty at times, Google Hangouts is an invaluable tool for team discussion, one-on-one chats, easy screen-sharing and prospective hire interviewing.
 
 What Do You Think?
 ------------------
