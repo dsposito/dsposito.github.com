@@ -28,6 +28,9 @@ p.post-date {
   margin-bottom: 20px;
   font-weight: bold;
 }
+.post-image {
+  margin: 15px;
+}
 
 /* tag_box */
 .tag_box {
