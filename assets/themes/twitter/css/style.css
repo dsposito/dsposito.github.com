@@ -30,6 +30,7 @@ p.post-date {
 }
 .post-image {
   margin: 15px;
+  max-width: 210px;
 }
 
 /* tag_box */
