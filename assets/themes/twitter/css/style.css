@@ -156,6 +156,10 @@ a:hover, a:active, a:focus {
 }
 
 /* Projects Styling */
+#projects-container h3 {
+  margin-top: -50px;
+  padding-top: 50px;
+}
 #projects-container dl {
   margin-top: 0;
 }
