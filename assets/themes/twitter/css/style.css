@@ -127,6 +127,13 @@ blockquote p {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   margin: 0 auto;
 }
+.pager {
+  font-size: 90%;
+  margin: 25px 0;
+}
+.pager i {
+  margin-right: -5px;
+}
 
 /* Global Styling */
 footer {
