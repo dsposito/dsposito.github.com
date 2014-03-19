@@ -29,12 +29,8 @@ Usage:
     {% endif %}
 
     <h3>
-      <a href="{{ BASE_PATH }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-      <small>
-        &ndash; {{ post.date | date: "%B %e" }}
-      </small>
+      <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+      <small>&ndash; {{ post.date | date: "%B %e" }}</small>
     </h3>
 
     {% if this_year != next_year %}
