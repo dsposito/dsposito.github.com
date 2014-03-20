@@ -30,7 +30,7 @@ Usage:
 
     <h3>
       <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-      <small>&ndash; {{ post.date | date: "%B %e" }}</small>
+      <span class="text-muted hidden-xs">&ndash; {{ post.date | date: "%B %e" }}</span>
     </h3>
 
     {% if this_year != next_year %}

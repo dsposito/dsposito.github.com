@@ -19,7 +19,7 @@ group: navigation
 			{% for post in site.posts limit:5 %}
 			<li>
 				<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-				<span class="text-muted">&ndash; {{ post.date | date: "%B %e" }}</span>
+				<span class="text-muted hidden-xs">&ndash; {{ post.date | date: "%B %e" }}</span>
 			</li>
 			{% endfor %}
 		</ul>
