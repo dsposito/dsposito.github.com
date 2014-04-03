@@ -32,6 +32,13 @@ p.post-date {
   margin: 15px;
   max-width: 210px;
 }
+.post-image-overview .thumbnail {
+  width: 80%;
+  margin: 25px auto;
+}
+.post-image-overview .thumbnail h3 {
+  margin-top: 0;
+}
 
 /* tag_box */
 .tag_box {
