@@ -12,17 +12,21 @@ tags: []
 	<small>Napoleon Hill</small>
 </blockquote>
 
-Billing is a critical component for many software products. There are quite a few solutions [to](http://www.whmcs.com) [choose](http://chargify.com) [from](http://paypal.com) yet integration often remains a major headache. Today, I'm pleased to announce the launch of [Volcano](https://github.com/volcano/billing) - an easy-to-use, API-driven billing solution that also includes a great front-end control panel. Best of all, it's now [open source](https://github.com/volcano/billing)!
+Billing is a critical component for many software products. There are several solutions [to](http://www.whmcs.com) [choose](http://chargify.com) [from](http://paypal.com) yet integration and management are often a major headache. Today, I'm pleased to announce the launch of [Volcano](https://github.com/volcano/billing) - an API-driven billing solution that also includes an easy-to-use front-end control panel. Best of all, it's now [open source](https://github.com/volcano/billing)!
 
-History
-----------------------
-Volcano got its start in 2009. The original idea was to create an agnostic payment gateway system for my [employer's](/about.html) [Social Media CMS Platform](/projects.html#socialcore). The goal was to provide our customers with a new ecommerce add-on that could handle purchases through PayPal, Google Checkout, and other payment gateways. Unfortunately, the project stuttered along for a couple of years and never really got off the ground.
+<a class="btn btn-primary" href="https://github.com/volcano/billing">
+	View the GitHub Project
+</a>
 
-Fast forward to the the fall of 2012. At this point, my employer was offering traditional hosting and enterprise social media tools and building a new cloud hosting platform. Payments for the core products were running through a home-grown, Oracle-based billing system that was nearly 15 years old. This out-dated billing system was tightly-coupled to the company's hosting technologies and was nearly impossible to integrate into new product initiatives due to a lack of robust APIs. The original goal was to solve these issues by building a new billing infrastructure. However, these plans were scrapped in favor of [WHMCS](http://www.whmcs.com) leading up to the launch of our cloud platform at [SXSW](http://sxsw.com). WHMCS ended up working pretty well for the new cloud product though it's lack of multitenancy support and other limitations left us searching for a better, long-term solution.
+A Long and Winding Road
+-----------------------
+Volcano got its start in 2009. The original idea was to create an agnostic payment gateway system for my [employer's](/about.html) [Social CMS Platform](/projects.html#socialcore). The goal was to provide our customers with a new ecommerce add-on that could handle purchases through PayPal, Google Checkout, and other payment gateways. Unfortunately, the project stuttered along for a couple of years and never really got off the ground.
 
-In the summer of 2013, a commitment was made to building a new Volcano. The brand-new version would include everything we needed to better automate enterprise purchases, improve product up sells and track churn and financial performance across all of the company's products. In less than three months of development, the project quickly grew to include great APIs for developers and an easy-to-use control panel for management.
+Fast forward to the the fall of 2012. At this point, my employer was offering traditional hosting and enterprise social media tools and building a new cloud hosting platform. Payments for the core products were running through a home-grown, Oracle-based billing system that was nearly 15 years old. This out-dated billing system was tightly-coupled to the company's hosting technologies and was nearly impossible to integrate into new product initiatives due to a lack of robust APIs. The original goal was to solve these issues by building a new billing infrastructure. However, these plans were scrapped in favor of [WHMCS](http://www.whmcs.com) leading up to the launch of our PaaS cloud platform at [SXSW](http://sxsw.com). WHMCS ended up working pretty well for the new product though it's lack of multitenancy support, incomplete APIs and other limitations left us searching for a better, long-term solution.
 
-In the fall of 2013, I ended up leaving the company amidst plans to integrate Volcano into all of the products and migrate 30,000+ customers onto the new system. As Volcano's product manager and lead developer, it was hard for me to step away from the project yet other factors meant that a change in direction was needed. It has been a long, wild journey to get to the current incarnation of Volcano and I'm thrilled that it will now continue to evolve in the open source world!
+In the summer of 2013, a commitment was made to build a new Volcano. The brand-new version would include everything we needed to better automate enterprise purchases, improve product up sells and track churn and financial performance across _all_ of the company's products. In less than three months of development, the project quickly grew to include great APIs for developers and an easy-to-use control panel for management.
+
+In the fall of 2013, I ended up leaving the company amidst plans to integrate Volcano into all of the products and migrate $2M+/year in transactions to the new system. As Volcano's product manager and lead developer, it was hard for me to step away from the project yet other factors necessitated a change in direction. It has certainly been a long, wild journey to get to the current incarnation of Volcano and I'm thrilled that it will now continue to evolve in the open source world!
 
 Oh, and if you're wondering where the name "Volcano" came from - it was meant to symbolize a volcanic eruption of money. :-)
 
@@ -65,14 +69,20 @@ Volcano was designed to be a simple yet flexible billing solution that's easy to
 	</div>
 </div>
 
+<p class="text-center">
+	<a class="btn btn-primary" href="https://github.com/volcano/billing">
+		View the GitHub Project
+	</a>
+</p>
+
 Next Steps
 ----------
-The current iteration of Volcano is a great start. Yet, there are still a few holes to be filled and plenty of improvements that can be made. Here are a few of the planned next steps:
+The current iteration of Volcano is a great start. Yet there are still a few holes to be filled and plenty of improvements that can be made. Here are a few of the planned next steps:
 
 * Improved Getting Started Wizard
 * Dashboard Modules
 * Orders View
-* Improved Statistics Reports
+* Improved Statistics & Reporting
 * Seller Authentication and ACL
 * Light-Weight CRM Tools
 
