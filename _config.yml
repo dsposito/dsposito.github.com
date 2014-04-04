@@ -1,8 +1,8 @@
 permalink: /blog/:year/:month/:day/:title 
-
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
+markdown: kramdown
 
 title : Daniel Spósito
 tagline: Vivre sans rêve, qu'este-ce?
