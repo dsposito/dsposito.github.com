@@ -42,6 +42,7 @@ At the end of the day, responsive design leaves you with only a surface-deep, no
 
 
 <img class="pull-right post-image" src="/assets/images/projects/socialcoremobile1.png" alt="Univision's 2011 MiPagina Mobile Web App" />
+
 A Better Approach: Adaptive Web Design
 --------------------------------------
 [Adaptive Web Design](http://www.techrepublic.com/blog/web-designer/what-is-the-difference-between-responsive-vs-adaptive-web-design) (also known as [Contextual/Task-Oriented Design](http://searchenginewatch.com/article/2331203/Responsive-Design-vs.-Task-Oriented-UX-Design)) is one approach that allows you to deliver both a performance and UX optimized mobile experience. This design methodology leverages the appropriately named [adapter design pattern](http://en.wikipedia.org/wiki/Adapter_pattern) where an adapter applies an interface (a set of common requirements) across multiple unique “drivers.” With Adaptive Web Design, the adapter initializes a specific driver based on the device type that's in use. These device-specific drivers then handle certain logic and perform relevant actions appropriate for the detected device. Here's a real-world example of how this can work:

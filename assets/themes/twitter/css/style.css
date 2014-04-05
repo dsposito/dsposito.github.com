@@ -28,6 +28,9 @@ p.post-date {
   margin-bottom: 20px;
   font-weight: bold;
 }
+.post-full .disclaimer {
+  margin-top: 25px;
+}
 .post-image {
   margin: 15px;
   max-width: 210px;

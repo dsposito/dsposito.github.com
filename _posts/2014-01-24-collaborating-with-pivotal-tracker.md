@@ -34,7 +34,6 @@ There are certainly [a lot](https://www.atlassian.com/software/jira) of [task ma
 
 Does your team use Pivotal Tracker? What other task management suites have you worked with? Let me know what has or hasn't worked for you [@smwrxforever](https://twitter.com/smwrxforever).
 
-<br />
-<p class="text-muted">
+<p class="text-muted disclaimer">
 	<em>I originally wrote this post for the <a href="http://developers.tailwindapp.com/collaborating-with-pivotal-tracker">Tailwind Engineering blog</a>. I'm cross-posting it here.</em>
 </p>
