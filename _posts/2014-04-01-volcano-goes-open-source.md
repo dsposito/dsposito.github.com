@@ -37,7 +37,7 @@ Volcano was designed to be a simple yet flexible billing solution that's easy to
 
 <div class="post-image-overview">
 	<div class="thumbnail">
-		<img src="/assets/images/posts/volcano_settings.png" alt="Volcano Seller Settings" />
+		<img src="{{ IMAGE_PATH }}/posts/volcano_settings.png" alt="Volcano Seller Settings" />
 		<div class="caption">
 			<h3>Multitenancy</h3>
 			<p>Easily manage API access, payment gateways, contact information and other settings for all sellers.</p>
@@ -45,7 +45,7 @@ Volcano was designed to be a simple yet flexible billing solution that's easy to
 	</div>
 
 	<div class="thumbnail">
-		<img src="/assets/images/posts/volcano_products.png" alt="Volcano Seller Settings" />
+		<img src="{{ IMAGE_PATH }}/posts/volcano_products.png" alt="Volcano Seller Settings" />
 		<div class="caption">
 			<h3>Product Options &amp; Pricing</h3>
 			<p>Easily manage multiple product lines, individual products and recurring/non-recurring fees.</p>
@@ -53,7 +53,7 @@ Volcano was designed to be a simple yet flexible billing solution that's easy to
 	</div>
 
 	<div class="thumbnail">
-		<img src="/assets/images/posts/volcano_customer.png" alt="Volcano Customer Management" />
+		<img src="{{ IMAGE_PATH }}/posts/volcano_customer.png" alt="Volcano Customer Management" />
 		<div class="caption">
 			<h3>Customer Management</h3>
 			<p>Easily view and manage customer payment methods, orders, products, transactions and contact information.</p>
@@ -61,7 +61,7 @@ Volcano was designed to be a simple yet flexible billing solution that's easy to
 	</div>
 
 	<div class="thumbnail">
-		<img src="/assets/images/posts/volcano_statistics.png" alt="Volcano Statistics &amp; Reporting" />
+		<img src="{{ IMAGE_PATH }}/posts/volcano_statistics.png" alt="Volcano Statistics &amp; Reporting" />
 		<div class="caption">
 			<h3>Statistics &amp;  Reporting</h3>
 			<p>Monitor growth and churn with daily and cumulative activity and conversion reports.</p>
