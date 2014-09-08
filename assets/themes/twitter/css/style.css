@@ -42,6 +42,19 @@ p.post-date {
 .post-image-overview .thumbnail h3 {
   margin-top: 0;
 }
+.post-image-overview-grid i {
+  display: block;
+  font-size: 50px;
+  margin-top: 9px;
+  text-align: center;
+}
+.post-image-overview-grid .caption h3 {
+  margin-top: 0;
+  text-align: center;
+}
+.post-image-overview-grid .caption p {
+  min-height: 200px;
+}
 
 /* tag_box */
 .tag_box {
