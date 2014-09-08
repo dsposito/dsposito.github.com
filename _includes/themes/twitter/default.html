@@ -58,7 +58,7 @@
 		</nav>
 		
 		<div class="container container-narrow">
-			<div id="{{ page.title | downcase }}-container" class="content">
+			<div id="{{ page.title | replace: ' ', '-' | downcase }}-container" class="content">
 				{{ content }}
 			</div>
 			<hr>
