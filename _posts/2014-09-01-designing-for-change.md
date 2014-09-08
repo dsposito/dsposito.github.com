@@ -38,7 +38,7 @@ Your app is going to need to change as its industry and market players evolve ov
 			<i class="icon-sitemap"></i>
 			<div class="caption">
 				<h3>Multi-Option Support</h3>
-				<p>If you run an online store, it'd be great if you gave your customers multiple payment options when it comes time to make a purchase. If you use the adapter pattern, your app can not only easily switch between Credit Card, PayPal and BitCoin - it could actually enable all three options at once.</p>
+				<p>If you run an online store, it'd be great if you gave your customers multiple payment options when it comes time to make a purchase. If you use the adapter pattern, your app can not only easily switch between Credit Card, PayPal and BitCoin - it can actually enable all three options at once.</p>
 			</div>
 		</div>
 	</div>
@@ -136,6 +136,12 @@ public function find_one($options = array())
 ~~~
 
 Similar driver classes could be written to provide support for other payment gateways such as PayPal.
+
+You can then [instantiate](https://github.com/volcano/billing/blob/master/fuel/app/classes/gateway/driver.php#L79) an instance of a particular driver with something like:
+
+~~~
+$instance = Gateway::instance($driver_name = 'authorizenet');
+~~~
 
 
 Start Designing For Change Today
