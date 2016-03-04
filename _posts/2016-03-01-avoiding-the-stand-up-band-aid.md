@@ -12,8 +12,6 @@ tags: []
 	<small><a href="http://agilemanifesto.org" target="_blank">Agile Manifesto</a></small>
 </blockquote>
 
-Micromanagement
----------------
 Daily [Stand-ups](https://en.wikipedia.org/wiki/Stand-up_meeting), Status Reports, Progress Updates - they're all pretty much the same process and often represent (intentially or not) micromanagement:
 
  - What did you do yesterday?
