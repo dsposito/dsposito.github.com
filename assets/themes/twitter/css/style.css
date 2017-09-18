@@ -138,9 +138,6 @@ blockquote p {
 .dl-horizontal dt, .dl-horizontal dd {
   line-height: 22px;
 }
-.navbar-brand {
-  font-weight: 200;
-}
 /* Larger modals for desktop devices. */
 @media (min-width: 992px) {
   .modal-dialog-gallery {
