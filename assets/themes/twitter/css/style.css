@@ -199,6 +199,9 @@ a:hover, a:active, a:focus {
 #projects-container dl {
   margin-top: 0;
 }
+ul.list {
+  margin-bottom: 0;
+}
 
 /* Blog Styling */
 #blog-container h3 {
