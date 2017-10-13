@@ -23,7 +23,7 @@ p.post-date {
   text-align: left;
 }
 
-/* post-full*/
+/* post-full */
 .post-full .date {
   margin-bottom: 20px;
   font-weight: bold;
@@ -184,11 +184,6 @@ a:hover, a:active, a:focus {
 }
 .network-twitter {
   font-size: 90%;
-}
-
-/* Homepage Styling */
-.recent-posts h3 {
-  margin: -5px 0 0;
 }
 
 /* Projects Styling */

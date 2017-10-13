@@ -6,40 +6,44 @@ group: navigation
 
 {% include JB/setup %}
 
+<blockquote>
+    <p>Vivre sans rêve, qu'este-ce? <span class="muted">(What is life without a dream?)</span></p>
+    <small>Edmond Rostand</small>
+</blockquote>
+
 <div class="row">
-	<div class="col-md-6">
-		<blockquote>
-			<p>Create personal products and services that positively impact the way a majority of society functions from day to day - this is my motto.</p>
-			<small>Daniel Sposito</small>
-		</blockquote>
-	</div>
-	<div class="col-md-6 recent-posts">
-		<h3>Recent Posts</h3>
-		<ul class="list-unstyled">
-			{% for post in site.posts limit:5 %}
-			<li>
-				<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-				<span class="text-muted hidden-xs">&ndash; {{ post.date | date: "%B %e" }}</span>
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
+    <div class="col-md-6">
+        <h3>Imagine...</h3>
+        What could we achieve if more of us dedicated ourselves to solving real problems with products and services that improve the way society functions every day?
+        <br /><br />You can find me on <a href="http://www.linkedin.com/in/danielsposito" target="_blank">LinkedIn</a>,
+        <a href="https://github.com/dsposito" target="_blank">GitHub</a> and <a href="https://twitter.com/smwrxforever" target="_blank">Twitter</a>.
+    </div>
+    <div class="col-md-6">
+        <h3>Recent Posts</h3>
+        <ul class="list-unstyled">
+            {% for post in site.posts limit:5 %}
+            <li>
+                <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+                <span class="text-muted hidden-xs">&ndash; {{ post.date | date: "%B %e" }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
 
 <script language="javascript">
-	var greetings = [
-		'Hello World',
-		'Hola',
-		'Olá',
-		'Aloha',
-		'Bonjour',
-		'Hallo',
-		'Buon Giorno',
-		'Xin Chao',
-		'Konnichiwa',
-		'Namaste',
-		'привет',
-	];
-	
-	document.getElementById('page-title').innerHTML = greetings[Math.floor(Math.random() * greetings.length)];
+    var greetings = [
+        'Hello World',
+        'Hola',
+        'Olá',
+        'Aloha',
+        'Bonjour',
+        'Hallo',
+        'Buon Giorno',
+        'Xin Chao',
+        'Konnichiwa',
+        'Namaste',
+    ];
+
+    document.getElementById('page-title').innerHTML = greetings[Math.floor(Math.random() * greetings.length)];
 </script>
