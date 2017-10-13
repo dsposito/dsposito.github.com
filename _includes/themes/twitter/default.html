@@ -1,77 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>{{ page.title }} - Daniel Sposito</title>
-		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-		<meta name="author" content="{{ site.author.name }}">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }} - Daniel Sposito</title>
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        <meta name="author" content="{{ site.author.name }}">
 
-		<!-- Enable responsive viewport -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Enable responsive viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link href="{{ ASSET_PATH }}/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="{{ ASSET_PATH }}/libs/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-		<link href="{{ ASSET_PATH }}/libs/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+        <link href="{{ ASSET_PATH }}/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ ASSET_PATH }}/libs/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="{{ ASSET_PATH }}/libs/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
-		<!-- atom & rss feed -->
-		<link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-		<link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+        <!-- atom & rss feed -->
+        <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+        <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
-		<script type="text/javascript" src="{{ ASSET_PATH }}/libs/jquery/jquery.min.js"></script>
-		<script type="text/javascript" src="{{ ASSET_PATH }}/libs/bootstrap/js/bootstrap.min.js"></script>
-	</head>
+        <script type="text/javascript" src="{{ ASSET_PATH }}/libs/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="{{ ASSET_PATH }}/libs/bootstrap/js/bootstrap.min.js"></script>
+    </head>
 
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="container container-narrow">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-header-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-				</div>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container container-narrow">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-header-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+                </div>
 
-				<div class="collapse navbar-collapse navbar-header-collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li{% if page.url == '/index.html' %} class="active"{% endif %}>
-							<a href="/">Home</a>
-						</li>
-						<li{% if page.url contains '/projects' %} class="active"{% endif %}>
-							<a href="/projects.html">Projects</a>
-						</li>
-						<li{% if page.url contains '/blog' %} class="active"{% endif %}>
-							<a href="/blog.html">Blog</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+                <div class="collapse navbar-collapse navbar-header-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li{% if page.url == '/index.html' %} class="active"{% endif %}>
+                            <a href="/">Home</a>
+                        </li>
+                        <li{% if page.url contains '/projects' %} class="active"{% endif %}>
+                            <a href="/projects.html">Projects</a>
+                        </li>
+                        <li{% if page.url contains '/blog' %} class="active"{% endif %}>
+                            <a href="/blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-		<div class="container container-narrow">
-			<div id="{{ page.title | replace: ' ', '-' | downcase }}-container" class="content">
-				{{ content }}
-			</div>
-			<hr>
-			<footer>
-				<div class="row">
-					<div class="col-xs-6 col-md-6">
-						<small class="text-muted">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</small>
-					</div>
-					<div class="col-xs-6 col-md-6 text-right">
-						<small>
-							<a href="http://www.linkedin.com/in/danielsposito" class="network-icon"><i class="icon-large icon-linkedin"></i></a>
-							<a href="https://github.com/dsposito" class="network-icon"><i class="icon-large icon-github"></i></a>
-							<a href="https://twitter.com/smwrxforever" class="network-icon network-twitter"><i class="icon-large icon-twitter"></i></a>
-						</small>
-					</div>
-				</div>
-			</footer>
-		</div>
+        <div class="container container-narrow">
+            <div id="{{ page.title | replace: ' ', '-' | downcase }}-container" class="content">
+                {{ content }}
+            </div>
+            <hr>
+            <footer>
+                <div class="row">
+                    <div class="col-xs-6 col-md-6">
+                        <small class="text-muted">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</small>
+                    </div>
+                    <div class="col-xs-6 col-md-6 text-right">
+                        <small>
+                            <a href="http://www.linkedin.com/in/danielsposito" class="network-icon"><i class="icon-large icon-linkedin"></i></a>
+                            <a href="https://github.com/dsposito" class="network-icon"><i class="icon-large icon-github"></i></a>
+                            <a href="https://twitter.com/smwrxforever" class="network-icon network-twitter"><i class="icon-large icon-twitter"></i></a>
+                        </small>
+                    </div>
+                </div>
+            </footer>
+        </div>
 
-		{% include JB/analytics %}
-	</body>
+        {% include JB/analytics %}
+    </body>
 </html>
